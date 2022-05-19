@@ -7,7 +7,7 @@ import org.fusesource.jansi.AnsiConsole;
  * Clase principal que implementa la partida, para
  * ello se sirve de la clase TresEnRaya que implementa los
  * elementos del juego propiamente dicho: tablero, fichas, movimientos
- * También utiliza una librería auxiliar para poder enviar códigos
+ * Tambiï¿½n utiliza una librerï¿½a auxiliar para poder enviar cï¿½digos
  * de color a la consola
  
  * @author loned
@@ -16,14 +16,14 @@ import org.fusesource.jansi.AnsiConsole;
 public class MainTresEnRaya {
 
 	/**
-	 * Emulación de consola Ansi 
+	 * Emulaciï¿½n de consola Ansi 
 	 */
 	public static Ansi scr0;
 	
 	/**
-	 * menú del juego, pinta en pantalla las opciones disponibles y 
-	 * solicita al jugador la elección de una ellas
-	 * @return sel Opción elegida por el jugador
+	 * menï¿½ del juego, pinta en pantalla las opciones disponibles y 
+	 * solicita al jugador la elecciï¿½n de una ellas
+	 * @return sel Opciï¿½n elegida por el jugador
 	 */
 	public static int menu() {	
 		int sel = 0;
@@ -45,20 +45,19 @@ public class MainTresEnRaya {
 		return sel;
 	}
 /**
- * Función principal, donde se gestiona la partida
+ * Funciï¿½n principal, donde se gestiona la partida
   * <br>
- * Consultar el método: {@link TresEnRaya#mostrarTablero}
- * @param args	Parámetro sin uso, se manteniene por compatibidad
+ * Consultar el mï¿½todo: {@link TresEnRaya#mostrarTablero}
+ * @param args	Parï¿½metro sin uso, se manteniene por compatibidad
  * @see "Clase 3 en raya"
  */
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/**
-		 * Seudocódigo
+		 * Seudocï¿½digo
 		 *  Instancia partida
 		 *  Limpia y muestra tablero
-		 *  mientras exista una opción valida
+		 *  mientras exista una opciï¿½n valida
 		 *  	opcion = menu (Presenta y elige opciones de juego)
 		 *  	Ejecuta turnos de jugador 1/2
 		 *  	y muestra la jugada
